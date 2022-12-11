@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-pnl {
+  position: fixed;
+  width: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: rgb(21, 21, 21);
+}
+.left-pnl .btn-close {
+  padding: 3px 15px 10px;
+  border: 0;
+  font-size: 30px;
+  font-weight: 300px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.left-pnl nav {
+  padding: 50px 0 0 20px;
+}
+.left-pnl nav li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+.left-pnl nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 29px;
+}
+
+.main {
+  padding-left: 10px;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+.main .pop-btn {
+  padding: 10px;
+}
+.main .pop-btn img {
+  width: 40px;
+}
+.main h1 {
+  font-size: 40px;
+}
+.main p {
+  font-size: 27px;
+}/*# sourceMappingURL=style2.css.map */

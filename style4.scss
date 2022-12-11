@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.forma {
+    padding: 10px 0 0 10px;
+    input{
+        border-radius: 0;
+        border: none;
+        padding-left: 3px;
+        outline: solid blue 2px;
+    }
+    button {
+        padding: 0 10px;
+        border: solid black 1px;
+    }
+}
+
+ul{
+    padding-left: 30px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
